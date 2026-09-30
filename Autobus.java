@@ -33,4 +33,53 @@ public class Autobus
     {
         anhanger = neuAnhanger;
     }
+    
+    public Autobus(String neuKennzeichen, int neuSitzplatze, boolean neuAnhanger)
+    {
+        setKennzeichen(neuKennzeichen);
+        setSitzplatze(neuSitzplatze);
+        setAnhanger(neuAnhanger);
+    }
+    
+    public Autobus(String neuKennzeichen, int neuSitzplatze)
+    {
+        setKennzeichen(neuKennzeichen);
+        setSitzplatze(neuSitzplatze);
+        setAnhanger(false);
+    }
+    
+    public Autobus(String neuKennzeichen, boolean neuAnhanger)
+    {
+        setKennzeichen(neuKennzeichen);
+        setSitzplatze(29);
+        setAnhanger(neuAnhanger);
+    }
+    
+    public Autobus(int neuSitzplatze, boolean neuAnhanger)
+    {
+        setKennzeichen("W-1234A");
+        setSitzplatze(neuSitzplatze);
+        setAnhanger(neuAnhanger);
+    }
+    
+    public Autobus(String neuKennzeichen)
+    {
+        setKennzeichen(neuKennzeichen);
+        setSitzplatze(29);
+        setAnhanger(false);
+    }
+    
+    public Autobus(int neuSitzplatze)
+    {
+        setKennzeichen("W-1234A");
+        setSitzplatze(neuSitzplatze);
+        setAnhanger(false);
+    }
+    
+    public Autobus(boolean neuAnhanger)
+    {
+        setKennzeichen("W-1234A");
+        setSitzplatze(29);
+        setAnhanger(neuAnhanger);
+    }
 }
