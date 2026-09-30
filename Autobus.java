@@ -82,4 +82,11 @@ public class Autobus
         setSitzplatze(29);
         setAnhanger(neuAnhanger);
     }
+    
+    public Autobus()
+    {
+        setKennzeichen("W-1234A");
+        setSitzplatze(29);
+        setAnhanger(false);
+    }
 }
